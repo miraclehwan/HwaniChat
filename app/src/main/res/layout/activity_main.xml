@@ -33,12 +33,11 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true" />
 
-    <TextView
-        android:id="@+id/getmessageTextView"
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/getMessageRecyclerView"
         android:layout_width="383dp"
         android:layout_height="459dp"
         android:gravity="center"
-        android:text="TextView"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="-1dp"
         android:layout_alignParentTop="true"
